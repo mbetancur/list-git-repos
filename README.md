@@ -1,6 +1,6 @@
-HelloBuild-GitHub Repos App
+HelloBuild-GitHub Repos App @author: @mbetancur
 
-A simple application that demonstrates GitHub OAuth integration and user authentication.
+A simple application that demonstrates GitHub OAuth integration and user authentication. This is a basic integration to Github with OAuth, first create an account then provide both Client Id and Client Secret from your github app (see steps below for more info), then authorize the connection and finally fetch the repos of the user.
 
 Useful links to setup a Github app and test this project
 1. https://docs.github.com/en/apps/creating-github-apps/registering-a-github-app/registering-a-github-app
