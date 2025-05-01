@@ -39,3 +39,19 @@ Tech Stack
 
 # Comments: 
 backend/src/types layer is pretending to act as database. Saving data in memory for demonstration purposes only
+
+This is of course a simple implementation due to short time. But Possible enhacements:
+Security Enhancements:
+Implement proper password hashing (currently storing plain text passwords in memory)
+Add input validation and sanitization for all user inputs
+Add CSRF protection for forms
+State Management & Persistence:
+Replace in-memory storage with a proper database (e.g., PostgreSQL, MongoDB)
+Implement session management with JWT or similar
+Add proper error handling and logging
+Implement refresh tokens for GitHub OAuth
+Add proper state persistence between server restarts
+Code Structure & Testing:
+Add unit and integration tests
+Implement proper dependency injection patterns
+Add API documentation (e.g., Swagger/OpenAPI)
